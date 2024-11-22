@@ -3,6 +3,10 @@ import FreeCAD, Part, Draft
 # Create a new document
 doc = FreeCAD.newDocument()
 
+# To change the name of the documents
+doc.Label = "Simpe Reactanngle"
+
+
 # Step 1: Create four points
 point1 = FreeCAD.Vector(0, 0, 0)
 point2 = FreeCAD.Vector(2, 0, 0)
